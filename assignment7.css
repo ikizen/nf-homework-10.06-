@@ -1,0 +1,18 @@
+.background {
+    background-color: rgb(39, 184, 228);
+    padding: 30px;
+    margin-bottom: 20px;
+}
+.background2 {
+    background-color: rgb(39, 184, 228);
+    padding: 30px;
+    margin-bottom: 20px;
+}
+
+.text-container {
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 30px;  
+    background-color: rgb(39, 184, 228);
+}

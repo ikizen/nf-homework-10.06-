@@ -1,0 +1,48 @@
+body {
+    background-color: rgb(70, 54, 36);
+    background: var(--main-background);
+    color: var(--main-font);
+}
+
+.video {
+    width: 80%;
+    height: 80%;
+    margin: 2rem;
+}
+
+.navigators {
+    font-size: 4rem;
+    padding: 1rem;
+}
+
+.navigators-pause {
+    display: none;
+}
+
+.pause {
+    display: unset;
+}
+
+.play-disappeared {
+    display: none;
+}
+
+.dark {
+    --main-background: hsl(230, 17%, 14%);
+    --main-font: white;
+}
+
+.light {
+    --main-background: white;
+    --main-font: hsl(230, 17%, 14%);
+}
+
+.toggle-switch {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.toggle-switch p {
+    padding: 1em;
+}
